@@ -9,14 +9,14 @@ public class InspiringPerson {
     private String lifespan;
     private int imgLoc;
     private String shortBio;
-    private String qoute;
+    private String quote;
 
-    public InspiringPerson(String name, String lifespan, int imgLoc, String shortBio, String qoute) {
+    public InspiringPerson(String name, String lifespan, int imgLoc, String shortBio, String quote) {
         this.name = name;
         this.lifespan = lifespan;
         this.imgLoc = imgLoc;
         this.shortBio = shortBio;
-        this.qoute = qoute;
+        this.quote = quote;
     }
 
     public String getName() {
@@ -35,7 +35,7 @@ public class InspiringPerson {
         return shortBio;
     }
 
-    public String getQoute() {
-        return qoute;
+    public String getQuote() {
+        return quote;
     }
 }

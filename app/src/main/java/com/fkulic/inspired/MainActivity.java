@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 InspiringPerson person = (InspiringPerson) mPersonAdapter.getItem(position);
-                Toast.makeText(getApplicationContext(), "\"" + person.getQoute() + "\"", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "\"" + person.getQuote() + "\"", Toast.LENGTH_SHORT).show();
             }
         });
     }
