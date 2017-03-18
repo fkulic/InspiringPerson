@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Inspired</string>
+    <string name="aboutBernersLee">
+        Tim Berners Lee \n8 June 1955 - ... \nSir Timothy John Berners-Lee, also known as TimBL, is
+        an English computer scientist, best known as the inventor of the World Wide Web.
+    </string>
+</resources>

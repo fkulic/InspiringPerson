@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Tim Berners-Lee",
+    "lifespan": "8 June 1955 - ...",
+    "img": "berners_lee",
+    "shortbio": "Sir Timothy John Berners-Lee, also known as TimBL, is an English computer scientist, best known as the inventor of the World Wide Web.",
+    "quote": "We need diversity of thought in the world to face the new challenges."
+  },
+  {
+    "name": "Edsger Wybe Dijkstra ",
+    "lifespan": "11 May 1930 - 6 August 2002",
+    "img": "dijkstra",
+    "shortbio": "Edsger Wybe Dijkstra was a Dutch computer scientist[14] and an early pioneer in many research areas of computing science.",
+    "quote": "There should be no such thing as boring mathematics."
+  },
+  {
+    "name": "James Arthur Gosling",
+    "lifespan": "May 19, 1955 - ...",
+    "img": "gosling",
+    "shortbio": "James Arthur Gosling is a Canadian computer scientist, best known as the creator of the Java programming language.",
+    "quote": "I think it would be a tragic statement of the universe if Java was the last language that swept through."
+  },
+  {
+    "name": "Dennis MacAlistair Ritchie",
+    "lifespan": "September 9, 1941 -October 12, 2011",
+    "img": "ritchie",
+    "shortbio": "Dennis MacAlistair Ritchie  was an American computer scientist. He created the C programming language and, with long-time colleague Ken Thompson, the Unix operating system.",
+    "quote": "When I read commentary about suggestions for where C should go, I often think back and give thanks that it wasn't developed under the advice of a worldwide crowd."
+  },
+  {
+    "name": "Alan Turing",
+    "lifespan": "23 June 1912 - 7 June 1954",
+    "img": "turing",
+    "shortbio": "Alan Mathison Turing was an English computer scientist, mathematician, logician, cryptanalyst and theoretical biologist.",
+    "quote": "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human."
+  },
+  {
+    "name": "Linus Benedict Torvalds",
+    "lifespan": "December 28 1969 - ...",
+    "img": "torvalds",
+    "shortbio": "Linus Benedict Torvalds is a Finnish software engineer who is the creator and, for a long time, principal developer, of the Linux kernel.",
+    "quote": "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program."
+  }
+]
