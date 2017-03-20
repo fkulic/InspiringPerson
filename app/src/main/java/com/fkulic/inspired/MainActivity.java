@@ -16,8 +16,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-import static android.widget.Toast.makeText;
-
 public class MainActivity extends AppCompatActivity {
 
 
@@ -49,13 +47,14 @@ public class MainActivity extends AppCompatActivity {
             InputStream is = getAssets().open("data.json");
             int size = is.available();
             byte[] buffer = new byte[size];
-            is.read(buffer);
+            Log.d(TAG, "loadJSON: read " + is.read(buffer) + " bytes.");
             is.close();
             json = new String(buffer);
             Log.d("data", json);
 
         } catch (IOException e) {
-            makeText(this, "Unable to load JSON", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Unable to load JSON", Toast.LENGTH_SHORT).show();
+            Log.e(TAG, "loadJSON: Unable to load JSON: " + e.getMessage());
         }
 
         return json;
@@ -78,8 +77,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
         } catch (JSONException e) {
-            makeText(this, "Unable to parse JSON", Toast.LENGTH_SHORT).show();
-            Log.e(TAG, "parseJSON: Unable to parse" + e.getMessage());
+            Toast.makeText(this, "Unable to parse JSON", Toast.LENGTH_SHORT).show();
+            Log.e(TAG, "parseJSON: Unable to parse JSON: " + e.getMessage());
         }
 
 

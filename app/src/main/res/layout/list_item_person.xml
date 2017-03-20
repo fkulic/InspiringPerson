@@ -5,36 +5,41 @@
                 android:padding="8dp">
 
     <ImageView
-        android:id="@+id/iwPicture"
+        android:id="@+id/ivPicture"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:scaleType="fitCenter"
         android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"/>
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
     <TextView
-        android:id="@+id/twName"
+        android:id="@+id/tvName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:layout_toRightOf="@id/iwPicture"
+        android:layout_toRightOf="@id/ivPicture"
+        android:layout_toEndOf="@id/ivPicture"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/twLifespan"
+        android:id="@+id/tvLifespan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:layout_toRightOf="@id/iwPicture"
-        android:layout_below="@id/twName" />
+        android:layout_toRightOf="@id/ivPicture"
+        android:layout_toEndOf="@id/ivPicture"
+        android:layout_below="@id/tvName" />
 
     <TextView
-        android:id="@+id/twBio"
+        android:id="@+id/tvBio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/iwPicture"
-        android:layout_below="@id/twLifespan" />
+        android:layout_toRightOf="@id/ivPicture"
+        android:layout_toEndOf="@id/ivPicture"
+        android:layout_below="@id/tvLifespan" />
 
 
 
